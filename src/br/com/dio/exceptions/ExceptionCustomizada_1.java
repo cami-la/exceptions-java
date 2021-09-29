@@ -6,7 +6,7 @@ import java.io.*;
 public class ExceptionCustomizada_1 {
     public static void main(String[] args) {
 
-        String nomeDoArquivo = JOptionPane.showInputDialog("Nome do arquivo a ser exibido: ");
+        String nomeDoArquivo = "romances-blake-crouch.txt";
         imprimeArquivoNoConsole(nomeDoArquivo);
         System.out.println("Vai chegar nessa linha independente de qualquer coisa!");
     }

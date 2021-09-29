@@ -8,7 +8,6 @@ public class ExceptionCustomizada_2 {
         for(int i = 0; i < denominador.length; i++) {
                 int resultado = numerador[i] / denominador[i];
                 System.out.println(resultado);
-
         }
     }
 

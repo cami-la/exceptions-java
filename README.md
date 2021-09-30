@@ -11,9 +11,6 @@
 </li>
 </ul>
 
-<div align="center">
-    <figure>
+<p align="center">
         <img src="https://i.ibb.co/28mC8gY/2021-09-30-09-28.png" alt="2021-09-30-09-28" border="0" width="600" height="400">
-        <figcaption>Hierarquia Exceptions em Java</figcaption>
-    </figure>
-</div>
+</p>

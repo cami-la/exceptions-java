@@ -128,7 +128,7 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
     <li>https://www.devmedia.com.br/trabalhando-com-excecoes-em-java/27601</li>
     <li>https://www.youtube.com/watch?v=ld2C4GcAtsg&t=296s</li>
     <li>https://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/</li>
-
+    <li>https://www.projetojavaweb.com/certificado-aluno/plataforma-curso/aulaatual/467726283/idcurso/1/idvideoaula/161</li>
 </ul>
 
 <h2> 🤝 Contribuindo </h2>

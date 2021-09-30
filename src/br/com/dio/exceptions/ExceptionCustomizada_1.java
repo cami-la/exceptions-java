@@ -4,8 +4,7 @@ import javax.swing.*;
 import java.io.*;
 
 public class ExceptionCustomizada_1 {
-    public static void main(String[] args) {
-
+    /*public static void main(String[] args) {
         String nomeDoArquivo = "romances-blake-crouch.txt";
         imprimeArquivoNoConsole(nomeDoArquivo);
         System.out.println("Vai chegar nessa linha independente de qualquer coisa!");
@@ -13,7 +12,9 @@ public class ExceptionCustomizada_1 {
 
     private static void imprimeArquivoNoConsole(String nomeDoArquivo)  {
         File file = new File(nomeDoArquivo);
-        try(BufferedReader br = new BufferedReader(new FileReader(file.getName()))) {
+
+        try{
+            BufferedReader br = lerArquivo(file.getName());
             String line = br.readLine();
 
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -31,4 +32,9 @@ public class ExceptionCustomizada_1 {
             e.printStackTrace();
         }
     }
+
+    private static BufferedReader lerArquivo(String nomeDoArquivo) {
+        return new BufferedReader(new FileReader(nomeDoArquivo));
+    }*/
+
 }

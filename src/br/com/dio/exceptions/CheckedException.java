@@ -5,22 +5,14 @@ import java.io.*;
 
 //Imprimir um arquivo no console.
 public class CheckedException {
-    public static void main(String[] args)  {
+    /*public static void main(String[] args)  {
         String nomeDoArquivo = "romances-blake-crouch.txt";
-        try {
-            imprimirArquivoNoConsole(nomeDoArquivo);
-        } catch (FileNotFoundException exception){
-            JOptionPane.showMessageDialog(null,"O arquivo não existe!");
-            exception.printStackTrace();
-        } catch (IOException e) {
-            JOptionPane.showMessageDialog(null,"Ocorreu um erro não esperado!");
-            e.printStackTrace();
-        }
+        imprimirArquivoNoConsole(nomeDoArquivo);
 
         System.out.println("Apesar da exception ou não, o programa continua...");
     }
 
-    public static void imprimirArquivoNoConsole(String nomeDoArquivo) throws IOException {
+    public static void imprimirArquivoNoConsole(String nomeDoArquivo) {
         File file = new File(nomeDoArquivo);
 
 
@@ -36,5 +28,5 @@ public class CheckedException {
         } while(line != null);
         bw.flush();
         br.close();
-    }
+    }*/
 }

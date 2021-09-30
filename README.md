@@ -11,14 +11,17 @@
 </ul>
 
 <div align="center">
-    <img src="https://i.ibb.co/VjT23Rr/amoTu.png" alt="amoTu" border="0" width="400" height="600"></div>
-<h3>Erro</h3>
+    <img src="https://i.ibb.co/VjT23Rr/amoTu.png" alt="amoTu" border="0" width="400" height="600">
+    <p>Hierarquia Exceptions</p>
+</div>
+
+<h2>Erro</h2>
 <ul>
     <li>Usado pela JVM, serve para indicar quando existe algum problema de recurso do programa, tornando a execução impossível de continuar.</li>
     <li>O “Erro” é algo que não pode mais ser tratado, ao contrário da “Exceção” que trata seus erros, pois todas as subclasses de Exception (menos as subclasses RuntimeException) são exceções que obrigatóriamente devem ser tratadas.</li>
 </ul>
 
-<h3>Uchecked Exception</h3>
+<h2>Uchecked Exception</h2>
 <ul>
     <li>Herdam da classe <em>RuntimeException</em> ou da classe <em>Error</em>.</li>
     <li>O compilador não verifica o código para ver se a exceção foi capturada ou declarada.</li>
@@ -26,17 +29,17 @@
     <li>Em geral, podem ser evitadas com uma codificação adequada.</li>
 </ul>
 
-<h3>Checked Exception</h3>
+<h2>Checked Exception</h2>
 <ul>
     <li>As exceções que são herdadas da classe <em>Exception</em>, mas não de <em>RuntimeException</em>.</li>
     <li>O compilador impõe um requisito do tipo "capturar ou declarar".</li>
     <li>O compilador verifica cada chamada de método e declaração de método para determinar se o método lança (<em>throws</em>) exceções verificadas.</li>
-    <li>Se lançar, o compilador assegura que a exceção verificada é capturada ou declarada em uma cláusula throws. 
+    <li>Se lançar, o compilador assegura que a exceção verificada é capturada ou declarada em uma cláusula <em>throws</em>. 
     <li>Caso não capturada nem declarada, ocorre um erro de compilação.
 </li>
 </ul>
 
-<h3>Exception Personalizada</h3>
+<h2>Exception Personalizada</h2>
 <ul>
     <li>Programadores podem achar útil declarar suas próprias classes de exceção.</li>
     <li>Essas Exceptions são específicas aos problemas que podem ocorrer quando outro programador empregar suas classes reutilizáveis.
@@ -45,7 +48,7 @@
     <li><em>Importante</em>: Antes de criar a nossa própria exceção, é recomendado verificar se já existe alguma exceção na biblioteca Java que já nos forneça o que precisamos. Afinal, não queremos reinventar a roda!</li>
 </ul>
 
-<h3>Blocos try/catch/finally</h3>
+<h2>Blocos try/catch/finally</h2>
 <ul>
     Bloco <strong><em>try</em></strong>:
     <li>Região onde se encontra o código que queremos verificar se irá ou não lançar uma exceção.</li>
@@ -63,11 +66,11 @@
 <ul>
     Bloco <strong><em>finally</em></strong>:
     <li>Este bloco é opcional, mas caso seja construído, quase sempre será executado. (A menos que seja forçada sua parada, por exemplo, com um System.exit(0), no <em>catch</em>)</li>
-    <li>Dentro do bloco finally, poderá conter outros blocos try, catch, bem como outro finally.</li>
+    <li>Dentro do bloco <em>finally</em>, poderá conter outros blocos <em>try, catch,</em> bem como outro <em>finally</em>.</li>
     </li>Geralmente utilizado quando precisamos executar algum código independente se ocorrer exception ou não.</li>
 </ul>
 
-<h3>Cláusulas throw e throws</h3>
+<h2>Cláusulas throw e throws</h2>
 <ul>
     Cláusula <strong><em>trows</em></strong>
     <li>Usada na assinatura do método.</li>

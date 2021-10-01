@@ -129,6 +129,10 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
     <li>https://www.youtube.com/watch?v=ld2C4GcAtsg&t=296s</li>
     <li>https://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/</li>
     <li>https://www.projetojavaweb.com/certificado-aluno/plataforma-curso/aulaatual/467726283/idcurso/1/idvideoaula/161</li>
+    <li>https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Error.html</li>
+    <li>https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Exception.html</li>
+    <li>https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Exception.html</li>
+    <li>https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/RuntimeException.html</li>
 </ul>
 
 <h2> 🤝 Contribuindo </h2>

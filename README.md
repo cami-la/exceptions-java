@@ -50,7 +50,7 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
 </ul>
 
 <hr>
-<h2>🔸 Erro</h2>
+<h2>🔸 Error</h2>
 <ul>
     <li>Usado pela JVM, serve para indicar quando existe algum problema de recurso do programa, tornando a execução impossível de continuar.</li>
     <li>O “Erro” é algo que não pode mais ser tratado, ao contrário da “Exceção” que trata seus erros, pois todas as subclasses de Exception (menos as subclasses RuntimeException) são exceções que obrigatóriamente devem ser tratadas.</li>
@@ -105,9 +105,9 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
     </li>Geralmente utilizado quando precisamos executar algum código independente se ocorrer exception ou não.</li>
 </ul>
 
-<h2>🔸 Cláusulas throw e throws</h2>
+<h2>🔸 Cláusulas throws e throw</h2>
 <ul>
-    Cláusula <strong><em>trows</em></strong>
+    Cláusula <strong><em>throws</em></strong>
     <li>Usada na assinatura do método.</li>
     <li>Necessária apenas para exceções checked (nosso caso de estudo)</li>
     <li>Informa ao chamador que este método pode lançar uma das exceções listadas no escopo do método. Isso obriga a fazer a captura dessa exception (<em>try-catch</em>) ou relançar o <em>throws</em>. </li>

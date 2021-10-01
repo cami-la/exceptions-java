@@ -8,11 +8,11 @@ public class UncheckedException {
         String a = JOptionPane.showInputDialog("Numerador: ");
         String b = JOptionPane.showInputDialog("Denominador: ");
 
-        int resultado = dividir(Integer.parseInt(a), Integer.parseInt(b));
+        double resultado = dividir(Integer.parseInt(a), Integer.parseInt(b));
         System.out.println("Resultado: " + resultado);
     }
 
-    public static int dividir(int a, int b) {
-        return a / b;
+    public static double dividir(int a, int b) {
+        return (double) a / b;
     }
 }

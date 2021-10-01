@@ -11,5 +11,4 @@ public class NaoFoiPossivelAbrirOArquivoException extends Exception {
         this.diretorioDoArquivo = diretorioDoArquivo;
     }
 
-
 }

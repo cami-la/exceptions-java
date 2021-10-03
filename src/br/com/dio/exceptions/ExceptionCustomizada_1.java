@@ -27,7 +27,7 @@ public class ExceptionCustomizada_1 {
         } catch (ImpossivelAberturaDeArquivoException e) {
             JOptionPane.showMessageDialog(null,
                     e.getMessage());
-            e.printStackTrace();
+            //e.printStackTrace();
         } catch (IOException ex) {
             JOptionPane.showMessageDialog(null,
                     "Ocorreu um erro não esperado, por favor, fale com o suporte." + ex.getMessage());
@@ -36,6 +36,7 @@ public class ExceptionCustomizada_1 {
     }
 
     public static BufferedReader lerArquivo(String nomeDoArquivo) throws ImpossivelAberturaDeArquivoException {
+
         File file = new File(nomeDoArquivo);
         try {
             return new BufferedReader(new FileReader(nomeDoArquivo));

@@ -109,7 +109,7 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
 <ul>
     Cláusula <strong><em>throws</em></strong>
     <li>Usada na assinatura do método.</li>
-    <li>Necessária apenas para exceções checked (nosso caso de estudo)</li>
+    <li>Necessária apenas para exceções checked. </li>
     <li>Informa ao chamador que este método pode lançar uma das exceções listadas no escopo do método. Isso obriga a fazer a captura dessa exception (<em>try-catch</em>) ou relançar o <em>throws</em>. </li>
 </ul>
 <ul>

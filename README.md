@@ -56,7 +56,7 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
     <li>O “Erro” é algo que não pode mais ser tratado, ao contrário da “Exceção” que trata seus erros, pois todas as subclasses de Exception (menos as subclasses RuntimeException) são exceções que obrigatóriamente devem ser tratadas.</li>
 </ul>
 
-<h2>🔸 Uchecked Exception</h2>
+<h2>🔸 Unchecked Exception</h2>
 <ul>
     <li>Herdam da classe <em>RuntimeException</em> ou da classe <em>Error</em>.</li>
     <li>O compilador não verifica o código para ver se a exceção foi capturada ou declarada.</li>

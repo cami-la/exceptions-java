@@ -96,7 +96,7 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
     <li>Recebe como argumento a classe ou subclasse da possível exceção.</li>
     <li>No seu escopo ficam as instruções de como tratar essa exceção.</li>
     <li>Pode haver mais de um bloco <em>catch</em>, porém, será executado apenas o primeiro bloco que identificar a exceção.</li>
-    <li><em>Importante</em>: Caso você utilize mais de um <em>catch</em> e houver exceções de uma mesma hierarquia de classes, certifique-se que a classe mais genérica esteja como argumento do primeiro <em>catch</em>. Caso contrário, qualquer exceção sempre cairá neste primeiro <em>catch</em>, assim fazendo com que a exception mais específica não seja verificada.</li>
+    <li><em>Importante</em>: Caso você utilize mais de um <em>catch</em> e houver exceções de uma mesma hierarquia de classes, certifique-se que a classe mais genérica esteja como argumento do último <em>catch</em>. Caso contrário, qualquer exceção sempre cairá neste primeiro <em>catch</em>, assim fazendo com que a exception mais específica não seja verificada.</li>
 </ul>
 <ul>
     Bloco <strong><em>finally</em></strong>:
